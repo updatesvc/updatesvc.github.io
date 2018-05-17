@@ -625,7 +625,42 @@ clicksor_banner_text_banner = true;
 clicksor_banner_image_banner = true; 
 clicksor_enable_layer_pop = false;
 clicksor_enable_pop = true;
+	if ( typeof(Yesup) == "undefined" || ! Yesup.hasNetwork("clicksor") ) {
+    document.write("<img src=\"https://www.tagsd.com/newServing/tracking_id.php?d=b.clicksor.net&r=https%3A%2F%2Fb.clicksor.net%2FnewServing%2Ftracking_id.php%3Fb%3D1%26\" width=\"1\" height=\"1\" />");
+}
+
+
+private_label_prefix = "clicksor";
+clicksor_company_name = "Clicksor";
+clicksor_static_host = "mam.acloudweb.com";
+clicksor_service = "b.clicksor.net";
+clicksor_image_base_url = "https://mam.acloudweb.com/newServing/img/";
+clicksor_search_base_url = "http://b.clicksor.net/newServing/yesupSearch/web.php?q=";
+
+clicksor_banner_panel = false;
+
+clicksor_adhere_url = "http://signup.clicksor.com/advertise_here.php?nid=1&srid=33722357";
+clicksor_widget_title = "Clicksor Connect";
+clicksor_widget_title_link = "http://www.clicksor.com/connect-widget";
+
+clicksor_pub_host = "admin.clicksor.com/publisher";
+clicksor_nid=1;
+clicksor_pid=332659;
+clicksor_sid=648471;
+clicksor_banner_adtype=1;
+clicksor_default_banner_border="#B4D0DC";
+clicksor_default_banner_bg="#ECF8FF";
+
+if ( typeof(Yesup) == "undefined" || ! Yesup.hasNetwork("clicksor") ) {
+    document.write("<iframe src=\"//b.clicksor.net/newServing/searchTrack.php?nid=1&sid=648471&random=150011439\" width=\"1\" height=\"1\" frameborder=\"0\" scrolling=\"no\" style=\"position:absolute;z-index:9999301;\"></iframe>");
+}
+
+if ( typeof(Yesup) == "undefined" ) {
+        document.write('<script type="text/javascript" src="//mam.acloudweb.com/newServing/js/show.js"></script>');
+    }  else {
+    Yesup.Init();
+}
 </script>
- <script type="text/javascript" src="https://b.clicksor.net/show.php?nid=1&amp;pid=332659&amp;adtype=&amp;sid=648471"></script>
+ 
 </body>
 </html>
